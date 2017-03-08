@@ -1,4 +1,4 @@
-FROM php:5.7-apache
+FROM php:5.6-apache
 
 MAINTAINER expertjtb@gmail.com
 

@@ -1,0 +1,11 @@
+mautic:
+  image: autoize/mautic:latest
+  links:
+    - mauticdb:mysql
+  ports:
+    - 8080:80
+
+mauticdb:
+  image: mysql:5.7
+  env_file:
+    - ./.env-vars
